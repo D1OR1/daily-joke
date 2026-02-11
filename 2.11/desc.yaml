@@ -1,0 +1,53 @@
+# 角色与场景定义
+comic_info:
+  type: "四格漫画（中文），严格按中文输出文字"
+  style: "Q版可爱、圆润线条、轻松搞笑，横竖两行四格"
+  color_scheme: "暖色调为主，番茄红+日系樱花粉，活泼明快"
+  background_style: "简洁卡通风格，带日本元素点缀"
+characters:
+  - name: "番茄君"
+    appearance: "Q版拟人番茄，圆滚滚红彤彤，戴着墨镜，拖着行李箱，酷酷的"
+    personality: "自信满满、觉得自己是大明星"
+  - name: "日本女学生们"
+    appearance: "Q版日本JK制服女生，三四人一组，手里拿着薯条"
+    personality: "元气满满、追星族"
+
+# 漫画内容
+panels:
+  panel1:
+    description: "番茄君抵达日本"
+    scene: "日本机场出口，背景有樱花和东京塔剪影"
+    action:
+      - "番茄君戴着墨镜、拖着行李箱，帅气走出机场"
+    expression:
+      - "番茄君推了推墨镜，自信而拽"
+    text: "听说这里的人超热情——"
+    narration:
+      position: top-left
+      text: "番茄到了日本会变成什么？"
+  panel2:
+    description: "女学生们发现番茄"
+    scene: "日本街头，女学生们远远看见番茄"
+    action:
+      - "女学生们发现番茄君，惊喜地互相拍肩指向他"
+    expression:
+      - "女学生们眼睛放光、激动到冒星星"
+      - "番茄君摘下墨镜，受宠若惊"
+    text: "啊！快看快看！"
+  panel3:
+    description: "番茄得意"
+    scene: "街头特写，番茄君被女学生围住"
+    action:
+      - "番茄君张开双臂，准备享受粉丝的拥抱"
+    expression:
+      - "番茄君飘飘然，脸上泛红光（害羞又得意）"
+    text: "我来了"
+  panel4:
+    description: "揭晓谜底——番茄酱"
+    scene: "女学生们一拥而上，害羞看着番茄"
+    action:
+      - "女学生们红着脸，含羞的看着番茄，嘴里喊着'番茄酱～～'"
+      - "番茄君咧嘴自信的笑着，带着墨镜"
+    expression:
+      - "女学生们非常害羞"
+    text: "番茄酱～～“
