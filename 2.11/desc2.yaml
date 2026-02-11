@@ -1,0 +1,54 @@
+# 角色与场景定义
+comic_info:
+  type: "四格漫画（中文），严格按中文输出文字"
+  style: "Q版可爱、圆润线条、轻松搞笑，横竖两行四格"
+  color_scheme: "古风土黄色+抖音霓虹紫粉色，古今碰撞"
+  background_style: "前两格古风水墨，后两格抖音蹦迪风格，反差强烈"
+characters:
+  - name: "商鞅"
+    appearance: "Q版古代大臣形象，高冠博带，表情严肃庄重，后期戴上墨镜变身潮人"
+    personality: "一本正经、突然放飞自我"
+  - name: "秦国百姓"
+    appearance: "Q版古代百姓，围观群众，后期掏出手机录像"
+    personality: "震惊、看热闹不嫌事大"
+
+# 漫画内容
+panels:
+  panel1:
+    description: "商鞅从棺材中复活"
+    scene: "古风墓地，商鞅破棺而出，烟雾缭绕"
+    action:
+      - "商鞅从棺材中坐起来，伸了个懒腰"
+    expression:
+      - "商鞅一脸愤怒"
+    text: ""
+    narration:
+      position: top-left
+      text: "商鞅复活后做的第一件事是什么？"
+  panel2:
+    description: "百姓围观"
+    scene: "秦国街头，百姓们围了过来"
+    action:
+      - "百姓们围过来，惊恐又好奇地看着商鞅"
+    expression:
+      - "百姓们瑟瑟发抖，有人小声嘀咕"
+      - "商鞅一脸愤怒，手提着刀"
+    text: "商鞅大人复活了？"
+  panel3:
+    description: "商鞅突然掏出墨镜"
+    scene: "商鞅表情突然变得玩味，从袖子里掏出一副墨镜戴上"
+    action:
+      - "商鞅帅气地甩袖，从袖中掏出墨镜戴上"
+    expression:
+      - "商鞅嘴角上扬，痞帅一笑"
+    text: ""
+  panel4:
+    description: "商鞅跳起刀马舞"
+    scene: "背景突变抖音霓虹灯光效果，商鞅戴着墨镜跳起刀马热舞，百姓们掏出手机在录"
+    action:
+      - "商鞅戴着墨镜，双手交叉比划，跳起刀马热舞，动感十足"
+      - "五匹马在背景跟着跳起刀马舞"
+    expression:
+      - "商鞅沉浸式嗨跳，帅到发光"
+      - "百姓们目瞪口呆又忍不住跟着嗨"
+    text: "哎，刀马！刀马！刀马！刀马！"

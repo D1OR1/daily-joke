@@ -1,0 +1,48 @@
+# 角色与场景定义
+comic_info:
+  type: "四格漫画（中文），严格按中文输出文字"
+  style: "Q版可爱、圆润线条、轻松搞笑，横竖两行四格"
+  color_scheme: "浅黄+白色为主，简洁干净，柴犬配色"
+  background_style: "简洁卡通风格，纯色背景"
+characters:
+  - name: "小狗"
+    appearance: "Q版柴犬，圆滚滚毛茸茸，呆萌可爱"
+    personality: "无辜、呆萌"
+  - name: "旁白君"
+    appearance: "不出现，仅以文字旁白形式存在"
+    personality: "冷幽默"
+
+# 漫画内容
+panels:
+  panel1:
+    description: "抛出问题"
+    scene: "纯色背景，一只完整的Q版柴犬坐在画面中间"
+    action:
+      - "柴犬歪着头，呆萌地看着观众"
+    expression:
+      - "柴犬天真无邪，歪头卖萌"
+    text: ""
+    narration:
+      position: top-left
+      text: "请问一只狗被切成三段会变成什么？"
+  panel2:
+    description: "三段狗"
+    scene: "纯色背景，柴犬被分成三段，每段中间留有间隔，但每段都还活着，表情各异"
+    action:
+      - "柴犬被分成三段：狗头、狗身、狗尾，三段分开排列"
+    expression:
+      - "狗头段：一脸懵逼"
+      - "狗身段：四脚乱蹬"
+      - "狗尾段：尾巴还在摇"
+    text: ""
+  panel3:
+    description: "揭晓答案"
+    scene: "三段狗分别标注go、go、go，背景加上闪亮特效"
+    action:
+      - "三段狗身上分别出现大大的'go'字样，排列成一行"
+    expression:
+      - "三段狗都露出自信的笑容"
+    text: "go！go！go！"
+  panel4:
+    description: "表情包（无需生成，直接使用现有表情包图片）"
+    skip_generation: true
