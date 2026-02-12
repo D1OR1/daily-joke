@@ -1,0 +1,57 @@
+# 角色与场景定义
+comic_info:
+  type: "四格漫画（中文），严格按中文输出文字"
+  style: "Q版可爱、圆润线条、轻松搞笑，横竖两行四格"
+  color_scheme: "浅黄+白色为主，简洁干净，柴犬配色"
+  background_style: "简洁卡通风格，纯色背景"
+characters:
+  - name: "小明"
+    appearance: "Q版小男孩，短发，圆脸大眼，穿蓝色T恤短裤"
+    personality: "天真无邪、呆萌"
+  - name: "妈妈"
+    appearance: "Q版年轻妈妈，披肩长发，穿黄色连衣裙，表情坚定"
+    personality: "果断、霸气"
+  - name: "旁白君"
+    appearance: "不出现，仅以文字旁白形式存在"
+    personality: "冷幽默"
+
+# 漫画内容
+panels:
+  panel1:
+    description: "抛出问题"
+    scene: "纯色背景，小明站在画面中间，头顶冒出大大的问号"
+    action:
+      - "小明歪着头，一脸困惑地看着观众"
+    expression:
+      - "小明满脸疑惑，眼睛睁得大大的"
+    text: ""
+    narration:
+      position: top-left
+      text: "小明爸爸妈妈离婚了"
+  panel2:
+    description: "妈妈霸气宣言"
+    scene: "纯色背景，妈妈双手叉腰站在画面中央，背后燃烧着火焰特效，小明缩在角落瑟瑟发抖"
+    action:
+      - "妈妈霸气地举起右手，做出发誓的手势"
+      - "小明蹲在角落，抱着膝盖，头上冒出省略号"
+    expression:
+      - "妈妈：眼神坚定，嘴角上扬，霸气外露"
+      - "小明：瑟瑟发抖，一脸无辜"
+    text: "我再也不嫁人了！"
+  panel3:
+    description: "小明的崩溃反应"
+    scene: "纯色背景，女装小明蹲在地上抱头，头顶灵魂出窍"
+    action:
+      - "女装小明双手捂脸蹲在地上，头顶飘出半透明的灵魂"
+    expression:
+      - "小明：眼泪飙出，嘴巴大张，灵魂已经飞走一半"
+    narration:
+      position: top-left
+      text: "于是小明就变成了女孩儿"
+  panel4:
+    scene: "纯色背景，小明变成了扎双马尾穿粉色裙子的小女孩造型"
+    action:
+      - "小明穿着粉色连衣裙，扎着双马尾，一脸生无可恋地站在画面中间"
+    expression:
+      - "小明：死鱼眼，嘴巴撇成一条线，满脸无奈"
+    text: "因为妈妈不嫁人，小明再也没有继爸了……"
